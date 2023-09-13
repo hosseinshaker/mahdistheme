@@ -10,11 +10,4 @@ get_template_part('elements/Clients');
 get_template_part('elements/Pricing');
 get_template_part('elements/Testimonials');
 get_template_part('elements/blog');
-?>
-
-
-
-
-
-<?php
 get_footer();
