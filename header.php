@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="<?php language_attributes(); ?>" dir="rtl">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
     <!-- ========== Meta Tags ========== -->
-    <meta charset="utf-8">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Digilab - SEO & Digital Marketing Agency Template">
@@ -31,7 +31,7 @@
 wp_head();
 ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
     <?php
 get_template_part('elements/header');
 

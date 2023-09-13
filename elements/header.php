@@ -55,8 +55,26 @@
                 <!-- End Header Navigation -->
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-menu">
+
+
+ <?php
+    wp_nav_menu(
+        array(
+            'theme_location' => 'topmenu', // نام مکان منو
+            'menu_class' => 'nav navbar-nav navbar-right', // کلاس CSS برای منو
+            'container' => 'div', // المان HTML که منو درون آن قرار می‌گیرد
+            'container_class' => 'collapse navbar-collapse', // کلاس CSS برای المان محیط منو
+            'container_id' => 'navbar-menu', // ID المان محیط منو
+            'fallback_cb' => false, // غیرفعال کردن منو پشتیبانی شده در صورت عدم وجود منوی تعریف شده
+        
+        )
+    ); 
+?> 
+<!--               <div class="collapse navbar-collapse" id="navbar-menu">
+
+
                     <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown" >صفحه اصلی</a>
                             <ul class="dropdown-menu">
@@ -67,47 +85,11 @@
                                 <li><a href="index-5.html">دمو ورژن پنجم</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >کمپانی</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="about-us.html">درباره کمپانی</a></li>
-                                <li><a href="team.html">ملاقات با تیم</a></li>
-                                <li><a href="team-carousel.html">کاروسل تیم</a></li>
-                                <li><a href="contact.html">در تماس باشید</a></li>
-                                <li><a href="process.html">فرآیند ما</a></li>
-                                <li><a href="faq.html">سوالات</a></li>
-                                <li><a href="login.html">ورود</a></li>
-                                <li><a href="register.html">ثبت نام</a></li>
-                                <li><a href="404.html">صفحه ارور</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >خدمات</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="services.html">خدمات ورژن اول</a></li>
-                                <li><a href="services-2.html">خدمات ورژن دوم</a></li>
-                                <li><a href="services-3.html">خدمات ورژن سوم</a></li>
-                                <li><a href="services-4.html">خدمات ورژن چهارم</a></li>
-                            </ul>
-                        </li>
+
                         <li><a href="case-studies.html">مطالعات موردی</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >وبلاگ</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="blog-standard.html">وبلاگ استاندارد</a></li>
-                                <li><a href="blog-with-sidebar.html">وبلاگ با سایدبار</a></li>
-                                <li><a href="blog-2-colum.html">وبلاگ شبکه ای دو ستونه</a></li>
-                                <li><a href="blog-3-colum.html">وبلاگ شبکه ای سه ستونه</a></li>
-                                <li><a href="blog-single.html">وبلاگ تکی</a></li>
-                                <li><a href="blog-single-with-sidebar.html">وبلاگ تکی با سایدبار</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="contact.html">تماس با ما</a>
-                        </li>
                     </ul>
-                </div><!-- /.navbar-collapse -->
-            </div>
+                </div> 
+            </div> -->
 
             <!-- Start Side Menu -->
             <div class="side">

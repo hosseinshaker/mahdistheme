@@ -129,23 +129,8 @@
 
     <!-- jQuery Frameworks
     ============================================= -->
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/jquery-1.12.4.min.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/popper.min.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/bootstrap.min.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/equal-height.min.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/jquery.appear.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/jquery.easing.min.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/modernizr.custom.13711.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/owl.carousel.min.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/wow.min.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/progress-bar.min.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/isotope.pkgd.min.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/count-to.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/YTPlayer.min.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/progresscircle.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/bootsnav.js"></script>
-    <script src="<?php echo get_template_directory_uri()  ?>/assets/js/main.js"></script>
+<?php
+wp_footer();
+?>
 </body>
 </html>
